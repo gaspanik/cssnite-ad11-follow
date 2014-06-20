@@ -1,0 +1,16 @@
+{
+  "name": "bs4framer3",
+  "version": "0.0.3",
+  "description": "Browser-Sync for Framer 3",
+  "main": "index.html",
+  "scripts": {
+    "start": "browser-sync start",
+    "postinstall": "bower install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Masaaki Komori",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^0.9.1"
+  }
+}
